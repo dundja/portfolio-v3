@@ -2,3 +2,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    @apply text-black;
+  }
+
+  a {
+    @apply text-blue;
+    transition: all 0.2 ease;
+  }
+
+  a:hover {
+    @apply text-blue-dark underline;
+  }
+}

@@ -1,9 +1,17 @@
-// import Image from 'next/image';
+import Footer from '../components/Footer';
+import Lab from '../components/Lab';
+import Landing from '../components/Landing';
+import Links from '../components/Links';
+import Tech from '../components/Tech';
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-black">Welcome to my app</h1>
+    <div className="container max-w-6xl mx-auto">
+      <Landing />
+      <Tech />
+      <Lab />
+      <Links />
+      <Footer />
     </div>
   );
 }
