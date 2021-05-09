@@ -15,7 +15,7 @@ const ProjectCard = ({ title, text, imageSrc, link, githubUrl }) => (
       <p className="text-base">{text}</p>
     </div>
     <div className="px-6 pt-4 pb-2">
-      <a href={link} target="_blank" className="mr-4">
+      <a href={link} target="_blank" rel="noopener" className="mr-4">
         <Image
           className="w-full"
           width={24}
@@ -25,7 +25,7 @@ const ProjectCard = ({ title, text, imageSrc, link, githubUrl }) => (
         />
       </a>
       {githubUrl && (
-        <a href={githubUrl} target="_blank" className="mr-4">
+        <a href={githubUrl} target="_blank" rel="noopener" className="mr-4">
           <Image
             className="w-full"
             width={24}
