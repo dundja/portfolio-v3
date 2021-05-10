@@ -41,7 +41,7 @@ const Navigation = () => {
       >
         <img src="/images/menu.svg" alt="menu icon" className="w-10" />
       </button>
-      <navigation
+      <nav
         className={`${
           !isOpen ? 'opacity-0 invisible' : 'opacity-95 visible'
         } w-screen h-screen overflow-y-hidden bg-white fixed z-40 top-0 right-0 left-0 bottom-0 transition-all ease-in-out duration-500 outline-none`}
@@ -96,7 +96,7 @@ const Navigation = () => {
             </li>
           </ol>
         </div>
-      </navigation>
+      </nav>
     </>
   );
 };

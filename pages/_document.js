@@ -41,6 +41,7 @@ class MyDocument extends Document {
           />
           <meta name="theme-color" content="#ffffff" />
 
+          <meta name="title" content="Radivoje Dundjerovic" />
           <meta
             name="description"
             content="Fullstack web developer. Tech lover and enthusiast. Love to break, debug

@@ -39,8 +39,7 @@
     left: 0;
     height: 22px;
     width: 100%;
-    border: solid 3px #28a9e0;
-    border-color: #28a9e0 transparent transparent transparent;
+    border-top: solid 3px #28a9e0;
     border-radius: 50%;
   }
 }
