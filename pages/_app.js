@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 import '../styles/globals.css';
-import Header from '../components/Header';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -10,7 +9,6 @@ function MyApp({ Component, pageProps }) {
         <title>Radivoje Dundjerovic</title>
       </Head>
       <main className="container mx-auto">
-        <Header />
         <Component {...pageProps} />
       </main>
     </>

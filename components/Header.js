@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const Header = () => (
-  <header className="py-10 flex justify-between items-center">
+  <header className="py-10 flex md:flex-row flex-col justify-between items-center">
     <Image
       src="/images/logo-text.svg"
       alt="Radivoje Dundjerovic logo"
@@ -10,7 +10,7 @@ const Header = () => (
     />
     <a
       href="mailto:dundja3@gmail.com"
-      className="text-lg flex justify-center items-center"
+      className="text-lg flex md:mt-0 mt-6 justify-center items-center"
     >
       <Image
         className="mx-3"

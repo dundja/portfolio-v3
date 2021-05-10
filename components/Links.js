@@ -1,5 +1,5 @@
 const Links = () => (
-  <srction id="lab" className="flex flex-col items-center my-16">
+  <srction id="links" className="flex flex-col items-center my-16">
     <h2 className="text-4xl">Links</h2>
     <p className="w-11/12 md:w-3/5 mt-5 text-center text-lg">
       Just couple of links and socials where you can reach me 🔗

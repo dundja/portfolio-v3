@@ -19,7 +19,7 @@ const Lab = () => (
       <div className="flex justify-center items-center md:p-0 px-2">
         <ProjectCard
           title="Verbum Memo"
-          text="Language learning app where you can learn and practice new words. App has also creative practice mods with statistics tracking."
+          text="Language learning app where you can learn and practice new words. App has also creative practice mods with statistic feature."
           link="https://www.verbum-memo.com"
           imageSrc="/images/verbumMemo-ss.png"
         />

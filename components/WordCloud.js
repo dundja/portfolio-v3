@@ -23,6 +23,8 @@ const data = [
   { value: 'Figma', count: 21 },
   { value: 'git', count: 26 },
   { value: 'Redux', count: 9 },
+  { value: 'tailwindcss', count: 9 },
+  { value: 'material ui', count: 13 },
 ];
 
 const options = {

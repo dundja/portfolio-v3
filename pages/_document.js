@@ -43,11 +43,14 @@ class MyDocument extends Document {
 
           <meta
             name="description"
-            content="Full stack web developer, willing to learn and push own boundaries every day."
+            content="Fullstack web developer. Tech lover and enthusiast. Love to break, debug
+            and fix stuff. Every day is opportunity to improve. Learn at least one new
+            thing each day. Organisation is key. Team player forever. Any kind of
+            sport."
           />
           <meta
             name="keyword"
-            content="portfolio, javascript, developer, web developer, frontend engineer, frontned, react, reactjs, next, nextjs, frontend web developer"
+            content="portfolio, javascript, developer, web developer, frontend engineer, frontned, react, reactjs, next, nextjs, frontend web developer, full stack, fullstack, full stack web developer, fullstack web developer, nodejs, firebase, tailwind"
           />
 
           {/* Open graph tags */}
@@ -57,13 +60,16 @@ class MyDocument extends Document {
           />
           <meta
             property="og:description"
-            content="Full stack web developer, willing to learn and push own boundaries every day."
+            content="Fullstack web developer. Tech lover and enthusiast. Love to break, debug
+            and fix stuff. Every day is opportunity to improve. Learn at least one new
+            thing each day. Organisation is key. Team player forever. Any kind of
+            sport."
           />
           <meta
             property="og:image"
             content="/favicon/android-chrome-512x512.png"
           />
-          <meta property="og:url" content="https://dundja.com" />
+          <meta property="og:url" content="https://www.dundja-dev.com" />
           <meta property="og:type" content="website" />
           {/* Twitter */}
           <meta
@@ -76,7 +82,10 @@ class MyDocument extends Document {
           />
           <meta
             name="twitter:description"
-            content="Full stack web developer, willing to learn and push own boundaries every day."
+            content="Fullstack web developer. Tech lover and enthusiast. Love to break, debug
+            and fix stuff. Every day is opportunity to improve. Learn at least one new
+            thing each day. Organisation is key. Team player forever. Any kind of
+            sport."
           />
           <meta
             name="twitter:image"
