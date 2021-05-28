@@ -12,7 +12,7 @@ const Lab = () => (
         <ProjectCard
           title="BalkanTip"
           text="Mathematical result predictions, value bets, in-depth football statistics, livescores and much more."
-          link="https://www.balkantip.com"
+          link="https://balkantip.firebaseapp.com"
           imageSrc="/images/balkantip-ss.png"
         />
       </div>
