@@ -19,7 +19,7 @@ const Lab = () => (
       <div className="flex justify-center items-center md:p-0 px-2">
         <ProjectCard
           title="BalkanTip"
-          text="Mathematical result predictions, value bets, in-depth football statistics, livescores and much more."
+          text="Mathematical result predictions, value bets, in-depth football statistics, livescores and much more. App only works in local at the moment due to Firebase plan change :)"
           link="https://balkantip.firebaseapp.com"
           imageSrc="/images/balkantip-ss.png"
         />

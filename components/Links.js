@@ -7,7 +7,7 @@ const Links = () => (
 
     <div className="my-14">
       <a
-        href="/RadivojeDundjerovic-resume.pdf"
+        href="/Radivoje Dundjerovic - resume.pdf"
         download
         className="relative text-black hover:text-blue text-4xl"
       >
