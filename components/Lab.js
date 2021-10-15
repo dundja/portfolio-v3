@@ -10,6 +10,14 @@ const Lab = () => (
     <div className="w-full mt-20 grid md:gap-16 gap-8 md:grid-cols-2 grid-cols-1">
       <div className="flex justify-center items-center md:p-0 px-2">
         <ProjectCard
+          title="Translized"
+          text="Production ready software localization and translation management platform."
+          link="https://translized.com"
+          imageSrc="/images/translized-ss.png"
+        />
+      </div>
+      <div className="flex justify-center items-center md:p-0 px-2">
+        <ProjectCard
           title="BalkanTip"
           text="Mathematical result predictions, value bets, in-depth football statistics, livescores and much more."
           link="https://balkantip.firebaseapp.com"
@@ -20,7 +28,7 @@ const Lab = () => (
         <ProjectCard
           title="Verbum Memo"
           text="Language learning app where you can learn and practice new words. App has also creative practice mods with statistic feature."
-          link="https://www.verbum-memo.com"
+          link="https://verbum-memo.netlify.app"
           imageSrc="/images/verbumMemo-ss.png"
         />
       </div>
@@ -49,15 +57,6 @@ const Lab = () => (
           link="https://coffeeshop-gatsby.netlify.app"
           imageSrc="/images/coffeeShop-ss.png"
           githubUrl="https://github.com/dundja/coffee-shop-gatsby"
-        />
-      </div>
-      <div className="flex justify-center items-center md:p-0 px-2">
-        <ProjectCard
-          title="My suites"
-          text="Presentation of suites with filtering system."
-          link="https://beach-res.netlify.app"
-          imageSrc="/images/roomsApp-ss.png"
-          githubUrl="https://github.com/dundja/react-resort"
         />
       </div>
     </div>
