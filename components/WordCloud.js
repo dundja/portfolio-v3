@@ -25,6 +25,7 @@ const data = [
   { value: 'Redux', count: 9 },
   { value: 'tailwindcss', count: 9 },
   { value: 'material ui', count: 13 },
+  { value: 'Vite', count: 25 },
 ];
 
 const options = {

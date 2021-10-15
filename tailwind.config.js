@@ -11,7 +11,11 @@ module.exports = {
       black: '#4D4D4D',
       white: '#FFFFFF',
     },
-    // extend: {},
+    extend: {
+      height: {
+        500: '500px',
+      },
+    },
     fontFamily: {
       sans: ['Nunito', 'sans-serif'],
     },

@@ -35,7 +35,7 @@ const Lab = () => (
       <div className="flex justify-center items-center md:p-0 px-2">
         <ProjectCard
           title="My movies"
-          text="Movie library application."
+          text="Movie library application. Search and find your favorite movies, tv shows and actors."
           link="https://dundja-movies.herokuapp.com"
           imageSrc="/images/dundjaMovies-ss.png"
           githubUrl="https://github.com/dundja/dundja-movies-app"
